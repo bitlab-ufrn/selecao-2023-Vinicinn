@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 80vw;    
+    border: 1px solid black;
+    border-radius: 5px;
+}
+article {
+    margin: 3px;
+    display: flex;
+    flex-direction: row;
+}
+div {
+    display: flex;
+    flex-direction: column;
+
+}
+img {
+    width: 50px;
+}
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid gray;
+    column-gap: 5px;
+}
+input {
+    height: 35px;
+}
