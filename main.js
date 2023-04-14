@@ -20,17 +20,17 @@ fetch("words.txt")
  * element that contains the text to be analyzed.
  */
 function analyzer(classname) {
-  let text = document.getElementsByClassName(classname)[0].value;
+  let text = (document.getElementsByClassName(classname)[0].value + "").toLowerCase();
   let words = "";
   let has = false;
   array.forEach((element) => {
-    let elementeString = element + " ";
-    if (text.includes(elementeString.trim())) {
+    let elementString = element + " ";
+    if (text.includes(elementString.trim())) {
       has = true;
       if (words == "") {
-        words += elementeString.trim();
+        words += elementString.trim();
       } else {
-        words += ", " + elementeString.trim();
+        words += ", " + elementString.trim();
       }
 
       let p = document.querySelector("p");
