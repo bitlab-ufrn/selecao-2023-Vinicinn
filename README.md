@@ -34,3 +34,9 @@ Você está livre para utilizar qualquer linguagem ou ferramenta.
 1. Adicione a esse README instruções de acesso ao seu sistema
 
 ## Acesso
+
+Entre na pagina https://selecao-2023-vinicinn.vercel.app e escreva o texto que deseja enviar para análise, onde vai ser procurado em seu texto palavras ofensivas salvas em uma lista, se seu texto possuir conteúdo ofensivo, aparecerá na tela, em vermelho, que seu texto é impróprio e abaixo, entre colchetes, quais palavras ofensivas seu texto possui, caso não encontre nenhuma palavra, aparecerá em verde que seu texto não possui conteúdo inadequado.
+
+## Referencias
+
+Lista de palavras retirada do repositorio https://github.com/dunossauro/chat-detox/blob/main/palavras.txt
