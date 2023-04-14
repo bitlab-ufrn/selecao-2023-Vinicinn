@@ -292,6 +292,7 @@ piroco
 piru
 pivete
 porra
+porca
 prega
 preso
 prequito
